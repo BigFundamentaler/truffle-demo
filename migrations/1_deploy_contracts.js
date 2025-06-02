@@ -1,7 +1,7 @@
 const SimpleWallet = artifacts.require("SimpleWallet");
 
 module.exports = function (deployer) {
-  // Deploy the SayHi contract
+  // Deploy the SimpleWallet
   deployer.deploy(SimpleWallet)
     .then(() => {
       console.log("SimpleWallet contract deployed successfully.");
